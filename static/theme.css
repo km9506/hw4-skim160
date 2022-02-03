@@ -1,0 +1,24 @@
+body {
+    font-family: Arial;
+    color: black;
+    background-color: #f8bbd0;
+    font-size: 36pt;
+    text-align: left;
+    padding-top: 2em;
+    padding: 1em;
+
+    
+    }
+.fav {
+    color: green
+}
+
+h1{
+    font-family: Arial;
+    color: black;
+    font-size: 36pt;
+    font-weight: bold;
+    
+}
+
+

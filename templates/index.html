@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/theme.css">
+    </head>
+    <body>
+        <h1>Sung's favorite TV shows are</h1>
+
+        
+        <ol>
+
+            {%for i in range(0,len)%}
+
+                {% if 'South Park' in tvShows[i] %}  
+                   <li class="fav">  {{ tvShows[i] }}</li> 
+                {% else %}
+                   <li> {{tvShows[i]}}</li>
+                   
+                {% endif %}
+                 
+            {%endfor%}
+
+        </ol>
+    </body>
+</html>
